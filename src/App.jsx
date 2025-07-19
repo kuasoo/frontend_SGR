@@ -3,7 +3,7 @@ const apiBase = import.meta.env.VITE_API_URL;
 import axios from 'axios';
 import { Editor } from '@tinymce/tinymce-react';
 import Login from './login';
-import './app.css';
+import './App.css';
 import { FaEdit, FaSave, FaTrash, FaPlus, FaEllipsisV, FaSyncAlt } from "react-icons/fa";
 import { MdCancel } from "react-icons/md";
 import AdminCrearUsuario from './components/AdminCrearUsuario';
